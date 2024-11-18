@@ -32,7 +32,7 @@ import java.util.List ;
  * <p>
  * the bottom card is at position 0
  *
- * @author Joshua J Solorzano
+ * @author Your Name // TODO
  *
  * @version 1.0 2024-10-31 Initial implementation
  */

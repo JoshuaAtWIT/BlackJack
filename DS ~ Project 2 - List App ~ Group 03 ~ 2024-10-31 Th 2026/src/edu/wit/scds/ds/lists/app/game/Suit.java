@@ -77,6 +77,21 @@ public enum Suit
     ;
 // @formatter:on
 
+	static Suit values(int i) {
+		if (i == 0) {
+			return SPADES;
+		}
+		if (i == 1) {
+			return DIAMONDS;
+		}
+		if (i == 2) {
+			return HEARTS;
+		}
+		if (i == 3) {
+			return CLUBS;
+		}
+		return null;
+	}
 
     // static fields
     /** when true, evaluations will use {@code altPriority} instead of {@code priority} */

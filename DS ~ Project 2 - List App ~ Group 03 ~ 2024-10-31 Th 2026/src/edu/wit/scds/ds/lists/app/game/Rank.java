@@ -72,7 +72,52 @@ public enum Rank
     JOKER   (   "Joker",        "R",        0,          0,          99,         99 )
     ;
 // @formatter:on
-
+	
+	static Rank values(int i) {
+		if (i == 0) {
+			return ACE;
+		}
+		if (i == 1) {
+			return TWO;
+		}
+		if (i == 2) {
+			return THREE;
+		}
+		if (i == 3) {
+			return FOUR;
+		}
+		if (i == 4) {
+			return FIVE;
+		}
+		if (i == 5) {
+			return SIX;
+		}
+		if (i == 6) {
+			return SEVEN;
+		}
+		if (i == 7) {
+			return EIGHT;
+		}
+		if (i == 8) {
+			return NINE;
+		}
+		if (i == 9) {
+			return TEN;
+		}
+		if (i == 10) {
+			return JACK;
+		}
+		if (i == 11) {
+			return QUEEN;
+		}
+		if (i == 12) {
+			return KING;
+		}
+		if (i == 13) {
+			return JOKER;
+		}
+		return null;
+	}
 
     // static fields
     /** when true, evaluations will use {@code altPoints} instead of {@code points} */
